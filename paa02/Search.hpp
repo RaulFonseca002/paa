@@ -5,7 +5,8 @@
 #include <stdio.h>
 #include <vector>
 #include <fstream>
-#include <chrono>
+#include <ctime>  
+#include <algorithm>
 
 using namespace std;
 
@@ -13,17 +14,20 @@ template <typename T>
 class Search {
 
 private:
-    ofstream logFile;
-    long time;
 
-    
+    void logBinarySearch(vector<T> *vec, T *element);
+    bool binarySearch(vector<T> *vec, T *element);
+    int linearSearch(vector<T> *vec, T *element);
+    bool randomSearch(vector<T> *vec, T *element);
+
 public:
-    Search(string logFileName);
+    Search();
     ~Search();
-    bool binarySearch(vector<T> vec, T element);
-    bool linearSearch(vector<T> vec, T element);
-    void logLinear(vector<T> vec, T element);
-    bool randomSearch(vector<T> vec, T element);
+
+    bool linear(vector<T> vec, T element);
+    bool binary(vector<T> vec, T element);
+    bool random(vector<T> vec, T element);
+
 };
 
 #include "Search.tpp"

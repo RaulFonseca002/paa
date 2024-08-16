@@ -3,4 +3,4 @@ allocated and declared a variable of size: 4
 pushed in a vector a variable of size: 4
 number of comparations: 7
 number of additions to a int: 7
-time: 1
+time: 2

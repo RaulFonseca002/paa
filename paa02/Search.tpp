@@ -1,67 +1,116 @@
+#include "Search.hpp"
 
 template <typename T>
-Search<T>::Search(string logFileName) {
-    logFile = ofstream(logFileName);
+Search<T>::Search() {
+    srand(time(0));
+
 }
 
 template <typename T>
 Search<T>::~Search() {
-    logFile.close();
 }
 
+template <typename T>
+bool Search<T>::binary(vector<T> vec, T element) {
+
+    bool resp;
+    sort(vec.begin(), vec.end());
+
+    resp = binarySearch(&vec, &element);
+
+    logBinarySearch(&vec, &element);
+
+    return resp;
+}
 
 template <typename T>
-bool Search<T>::binarySearch(vector<T> vec, T element) {
+bool Search<T>::binarySearch(vector<T> *vec, T *element) {
+
+    int left = 0;
+    int right = vec->size() -1;
+    int middle;
+
+    while(left <= right){
+
+        middle = left + ((right - left)/2);
+
+        if(vec->at(middle) == *element){
+            return true;
+        }
+
+        if(vec->at(middle) < *element){
+            left = ++middle;
+        }else{
+            right = --middle;
+        }
+    }
 
     return false;
 }
 
 template <typename T>
-bool Search<T>::linearSearch(vector<T> vec, T element) {
+void Search<T>::logBinarySearch(vector<T> *vec, T *element) {
 
-    chrono::steady_clock::time_point begin, end;
-    begin = chrono::steady_clock::now();
+    int left = 0;
+    int right = vec->size() -1;
+    int middle;
 
-    int index = 0;
-    vec.push_back(element);
+    while(left <= right){
 
-    while(element != vec[index]){
-        index++;
+        middle = left + ((right - left)/2);
+
+        if(vec->at(middle) == *element){
+            return;
+        }
+
+        if(vec->at(middle) < *element){
+            left = ++middle;
+        }else{
+            right = --middle;
+        }
     }
-
-    end = chrono::steady_clock::now();
-
-    time = chrono::duration_cast<chrono::microseconds>(end - begin).count();
     
-    return (index != (vec.size() -1));
+
 }
 
+
 template <typename T>
-void Search<T>::logLinear(vector<T> vec, T element) {
+bool Search<T>::linear(vector<T> vec, T element) {
+
+    bool resp;
+    vec.push_back(element);
+
+    resp = linearSearch(&vec, &element);
+    return (resp >= 0);
+}
+
+
+template <typename T>
+int Search<T>::linearSearch(vector<T>* vec, T* element) {
 
     int index = 0;
 
-    logFile << "============================================================" << endl;
-    logFile << "allocated and declared a variable of size: " << sizeof(index) << endl;
-
-    vec.push_back(element);
-    logFile << "pushed in a vector a variable of size: " << sizeof(element) << endl;
-
-    while(element != vec[index]){
+    while(*element != vec->at(index)){
         index++;
-
     }
 
-    logFile << "number of comparations: " << index << endl;
-    logFile << "number of additions to a int: " << index << endl;
-    logFile << "time: " << time << endl;
-
-
+    return (index != (vec->size() -1)) ? index : (index * -1);
 }
-
 
 template <typename T>
-bool Search<T>::randomSearch(vector<T> vec, T element) {
+bool Search<T>::random(vector<T> vec, T element){
 
-    return false;
+    bool resp;
+
+    resp = randomSearch(&vec, &element);
+
+    return resp;
 }
+
+template <typename T>
+bool Search<T>::randomSearch(vector<T> *vec, T *element) {
+
+    int i = rand() % vec->size();
+    return (vec->at(i) == *element);
+}
+

@@ -7,6 +7,7 @@
 #include <fstream>
 #include <ctime>  
 #include <algorithm>
+#include "Log.hpp"
 
 using namespace std;
 
@@ -15,6 +16,8 @@ class Search {
 
 private:
 
+    Log logger;
+    
     void logBinarySearch(vector<T> *vec, T *element);
     bool binarySearch(vector<T> *vec, T *element);
     int linearSearch(vector<T> *vec, T *element);

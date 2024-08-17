@@ -27,16 +27,17 @@ public:
         return instance;
     }
 
+    Log();
+    ~Log();
+
     void init(string key);
     void end(string key);
-    void incrementInstance(string key);
-    void incrementAttribuition(string key);
-    void incrementCompare(string key);
+    void incrementInstance(string key, int value);
+    void incrementAttribuition(string key, int value);
+    void incrementCompare(string key, int value);
     void printLog(string key);
 
 private:
-    Log();
-    ~Log();
 
     string formatTime(const system_clock::time_point& tp);
 

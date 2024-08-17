@@ -1,4 +1,4 @@
-#include "Log.h"
+#include "Log.hpp"
 
 Log::Log() {}
 
@@ -17,31 +17,31 @@ void Log::end(string key) {
     }
 }
 
-void Log::incrementInstance(string key) {
+void Log::incrementInstance(string key, int value) {
     auto start = system_clock::now();
     auto log = logs.find(key);
     if (log != logs.end()) {
-        log->second.instacesCount++;
+        log->second.instacesCount += value;
         auto end = system_clock::now();
         log->second.timeSpentLogger += duration_cast<duration<double>>(end - start);
     }
 }
 
-void Log::incrementAttribuition(string key) {
+void Log::incrementAttribuition(string key, int value) {
     auto start = system_clock::now();
     auto log = logs.find(key);
     if (log != logs.end()) {
-        log->second.attribuitionCount++;
+        log->second.attribuitionCount += value;
         auto end = system_clock::now();
         log->second.timeSpentLogger += duration_cast<duration<double>>(end - start);
     }
 }
 
-void Log::incrementCompare(string key) {
+void Log::incrementCompare(string key, int value) {
     auto start = system_clock::now();
     auto log = logs.find(key);
     if (log != logs.end()) {
-        log->second.compareCount++;
+        log->second.compareCount += value;
         auto end = system_clock::now();
         log->second.timeSpentLogger += duration_cast<duration<double>>(end - start);
     }

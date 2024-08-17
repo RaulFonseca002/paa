@@ -1,4 +1,4 @@
 #!/bin/sh
 
-g++ main.cpp -o main
+g++ main.cpp Log.cpp -o main
 ./main

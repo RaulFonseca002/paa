@@ -37,7 +37,7 @@ int main() {
     TestVector test;
     string resp;
 
-    for(int c = 0; c <= 3; c++){
+    for(int c = 0; c <= 7; c++){
 
         test = getRandomVector(pow(10, c), false);
 

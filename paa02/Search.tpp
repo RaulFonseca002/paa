@@ -46,9 +46,9 @@ bool Search<T>::binarySearch(vector<T> *vec, T *element) {
         }
 
         if(vec->at(middle) < *element){
-            left = ++middle;
+            left = middle + 1;
         }else{
-            right = --middle;
+            right = middle - 1;
         }
     }
 
@@ -79,11 +79,11 @@ void Search<T>::logBinarySearch(vector<T> *vec, T *element) {
 
         logger.incrementCompare(binary_log_id, 1);
         if(vec->at(middle) < *element){
-            left = ++middle;
+            left = middle + 1;
             logger.incrementAttribuition(binary_log_id, 1);
             
         }else{
-            right = --middle;
+            right = middle - 1;
             logger.incrementAttribuition(binary_log_id, 1);
 
         }

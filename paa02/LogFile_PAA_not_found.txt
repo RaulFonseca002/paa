@@ -1,0 +1,264 @@
+--------------------------------------------
+Log Key: linear
+Start Time: 18/08/2024 16:06:09
+End Time: 18/08/2024 16:06:09
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 1
+Attribuition Op: 1
+Compare Op: 1
+Total Operations: 3
+--------------------------------------------
+--------------------------------------------
+Log Key: binary
+Start Time: 18/08/2024 16:06:09
+End Time: 18/08/2024 16:06:09
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 3
+Attribuition Op: 3
+Compare Op: 3
+Total Operations: 9
+--------------------------------------------
+--------------------------------------------
+Log Key: random
+Start Time: 18/08/2024 16:06:09
+End Time: 18/08/2024 16:06:09
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 1
+Attribuition Op: 1
+Compare Op: 1
+Total Operations: 3
+--------------------------------------------
+--------------------------------------------
+Log Key: linear
+Start Time: 18/08/2024 16:06:09
+End Time: 18/08/2024 16:06:09
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 1
+Attribuition Op: 1
+Compare Op: 2
+Total Operations: 4
+--------------------------------------------
+--------------------------------------------
+Log Key: binary
+Start Time: 18/08/2024 16:06:09
+End Time: 18/08/2024 16:06:09
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 3
+Attribuition Op: 3
+Compare Op: 3
+Total Operations: 9
+--------------------------------------------
+--------------------------------------------
+Log Key: random
+Start Time: 18/08/2024 16:06:09
+End Time: 18/08/2024 16:06:09
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 1
+Attribuition Op: 1
+Compare Op: 1
+Total Operations: 3
+--------------------------------------------
+--------------------------------------------
+Log Key: linear
+Start Time: 18/08/2024 16:06:09
+End Time: 18/08/2024 16:06:09
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 1
+Attribuition Op: 1
+Compare Op: 2
+Total Operations: 4
+--------------------------------------------
+--------------------------------------------
+Log Key: binary
+Start Time: 18/08/2024 16:06:09
+End Time: 18/08/2024 16:06:09
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 3
+Attribuition Op: 7
+Compare Op: 19
+Total Operations: 29
+--------------------------------------------
+--------------------------------------------
+Log Key: random
+Start Time: 18/08/2024 16:06:09
+End Time: 18/08/2024 16:06:09
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 1
+Attribuition Op: 1
+Compare Op: 1
+Total Operations: 3
+--------------------------------------------
+--------------------------------------------
+Log Key: linear
+Start Time: 18/08/2024 16:06:09
+End Time: 18/08/2024 16:06:09
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 1
+Attribuition Op: 1
+Compare Op: 2
+Total Operations: 4
+--------------------------------------------
+--------------------------------------------
+Log Key: binary
+Start Time: 18/08/2024 16:06:09
+End Time: 18/08/2024 16:06:09
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 3
+Attribuition Op: 10
+Compare Op: 31
+Total Operations: 44
+--------------------------------------------
+--------------------------------------------
+Log Key: random
+Start Time: 18/08/2024 16:06:09
+End Time: 18/08/2024 16:06:09
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 1
+Attribuition Op: 1
+Compare Op: 1
+Total Operations: 3
+--------------------------------------------
+--------------------------------------------
+Log Key: linear
+Start Time: 18/08/2024 16:06:09
+End Time: 18/08/2024 16:06:09
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 1
+Attribuition Op: 1
+Compare Op: 2
+Total Operations: 4
+--------------------------------------------
+--------------------------------------------
+Log Key: binary
+Start Time: 18/08/2024 16:06:09
+End Time: 18/08/2024 16:06:09
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 3
+Attribuition Op: 14
+Compare Op: 47
+Total Operations: 64
+--------------------------------------------
+--------------------------------------------
+Log Key: random
+Start Time: 18/08/2024 16:06:09
+End Time: 18/08/2024 16:06:09
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 1
+Attribuition Op: 1
+Compare Op: 1
+Total Operations: 3
+--------------------------------------------
+--------------------------------------------
+Log Key: linear
+Start Time: 18/08/2024 16:06:09
+End Time: 18/08/2024 16:06:09
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 1
+Attribuition Op: 1
+Compare Op: 2
+Total Operations: 4
+--------------------------------------------
+--------------------------------------------
+Log Key: binary
+Start Time: 18/08/2024 16:06:09
+End Time: 18/08/2024 16:06:09
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 3
+Attribuition Op: 18
+Compare Op: 63
+Total Operations: 84
+--------------------------------------------
+--------------------------------------------
+Log Key: random
+Start Time: 18/08/2024 16:06:09
+End Time: 18/08/2024 16:06:09
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 1
+Attribuition Op: 1
+Compare Op: 1
+Total Operations: 3
+--------------------------------------------
+--------------------------------------------
+Log Key: linear
+Start Time: 18/08/2024 16:06:09
+End Time: 18/08/2024 16:06:09
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 1
+Attribuition Op: 1
+Compare Op: 2
+Total Operations: 4
+--------------------------------------------
+--------------------------------------------
+Log Key: binary
+Start Time: 18/08/2024 16:06:09
+End Time: 18/08/2024 16:06:09
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 3
+Attribuition Op: 22
+Compare Op: 79
+Total Operations: 104
+--------------------------------------------
+--------------------------------------------
+Log Key: random
+Start Time: 18/08/2024 16:06:09
+End Time: 18/08/2024 16:06:09
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 1
+Attribuition Op: 1
+Compare Op: 1
+Total Operations: 3
+--------------------------------------------
+--------------------------------------------
+Log Key: linear
+Start Time: 18/08/2024 16:06:09
+End Time: 18/08/2024 16:06:09
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 1
+Attribuition Op: 1
+Compare Op: 2
+Total Operations: 4
+--------------------------------------------
+--------------------------------------------
+Log Key: binary
+Start Time: 18/08/2024 16:06:13
+End Time: 18/08/2024 16:06:13
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 3
+Attribuition Op: 24
+Compare Op: 87
+Total Operations: 114
+--------------------------------------------
+--------------------------------------------
+Log Key: random
+Start Time: 18/08/2024 16:06:13
+End Time: 18/08/2024 16:06:13
+Operation Time: 0 ms
+        ----------------------------        
+Instances Op: 1
+Attribuition Op: 1
+Compare Op: 1
+Total Operations: 3
+--------------------------------------------

@@ -5,9 +5,8 @@ Log::Log() {}
 Log::~Log() {}
 
 void Log::init(string key) {
-    if (logs.find(key) == logs.end()) {
-        logs[key] = { system_clock::now(), system_clock::now(), duration<double>::zero(), 0, 0, 0 };
-    }
+    logs[key] = { system_clock::now(), system_clock::now(), duration<double>::zero(), 0, 0, 0 };
+    
 }
 
 void Log::end(string key) {
